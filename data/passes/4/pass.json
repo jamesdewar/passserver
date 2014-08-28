@@ -1,0 +1,42 @@
+{
+  "passTypeIdentifier": "pass.com.test.ividata",
+  "formatVersion": 1,
+  "organizationName": "CodeKollektiv",
+  "serialNumber": "da624a9c81dacdbc2096d8a26c7efeee",
+  "teamIdentifier": "QD2D8W54YW",
+  "webServiceURL": "http://jamesd.local:3000/",
+  "authenticationToken": "35eca5de30d8527230c920bb4f8a1e8c",
+  "description": "Balance Card for CodeKollektiv",
+  "foregroundColor": "#FFFFFF",
+  "backgroundColor": "#631313",
+  "logoText": "CodeKollektiv",
+  "locations": [
+    {
+      "latitude": 52.497181,
+      "longitude": 13.384972
+    }
+  ],
+  "barcode": {
+    "messageEncoding": "utf-8",
+    "format": "PKBarcodeFormatQR",
+    "message": "{\"pass_type_id\":\"pass.com.codekollektiv.balance\",\"serial_number\":\"da624a9c81dacdbc2096d8a26c7efeee\",\"authentication_token\":\"35eca5de30d8527230c920bb4f8a1e8c\"}"
+  },
+  "storeCard": {
+    "primaryFields": [
+      {
+        "key": "balance",
+        "label": "Balance",
+        "value": 23.0,
+        "currencyCode": "EUR",
+        "changeMessage": "Balance updated to %@."
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "fullName",
+        "label": "Name",
+        "value": "bob"
+      }
+    ]
+  }
+}
